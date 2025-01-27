@@ -5,40 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link
-rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-crossorigin="anonymous"
-referrerpolicy="no-referrer"/>
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="./index.html">
 </head>
 <body>
     <header class="header">
-        <div class="box">
-        <a class="logo" href="./index.html" >WebStudio</a>
-        <nav class="nav">
-        <ul class="nav-list">
-        <li class="nav-list-item"><a href="" class="nav-list-link">Studio</a></li>
-        <li class="nav-list-item"><a href="" class="nav-list-link">Portfolio</a></li>
-        <li class="nav-list-item"><a href="" class="nav-list-link">Contacts</a></li>
-        </ul>
-        </nav>
-        <ul class="contacts-list">
-            <li class="contacts-list-item"><a class="contacts-list-link" href="">info@devstudio.com</a></li>
-            <li class="contacts-list-item"><a class="contacts-list-link" href="">+38 096 111 11 11</a></li>
-        </ul>
-    </div>
+        <div class="box header-container">
+            <a href="" class="logo">WebStudio</a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-list-item"><a href="" class="nav-list-link">Studio</a></li>
+                    <li class="nav-list-item"><a href="./portfolio.html" class="nav-list-link">Portfolio</a></li>
+                    <li class="nav-list-item"><a href="" class="nav-list-link">Contacts</a></li>
+                </ul class="contacts-list">
+            </nav>
+            <ul class="contacts-list">
+                <li class="contacts-list-item"><a class="contacts-list-link" href=""><img src="./img/envelope (hover).svg" class="" alt="">info@devstudio.com</a></li>
+                <li class="contacts-list-item"><a class="contacts-list-link" href=""><img src="./img/Vector.svg" class="" alt="">096 111 11 11</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
         </header>
+        <!-- portfolio -->
         <section class="Portfolio">
             <div class="box">
         <ul class="filter-list">
-            <li class="filter-list-item"><button class="filter-list-btn"></button></li>
-            <li class="filter-list-item"><button class="filter-list-btn"></button></li>
-            <li class="filter-list-item"><button class="filter-list-btn"></button></li>
-            <li class="filter-list-item"><button class="filter-list-btn"></button></li>
-            <li class="filter-list-item"><button class="filter-list-btn"></button></li>
+            <li class="filter-list-item"><button class="filter-list-btn">All</button></li>
+            <li class="filter-list-item"><button class="filter-list-btn">Web-sites</button></li>
+            <li class="filter-list-item"><button class="filter-list-btn">Apps</button></li>
+            <li class="filter-list-item"><button class="filter-list-btn">Design</button></li>
+            <li class="filter-list-item"><button class="filter-list-btn">Marketing</button></li>
         </ul>
-        <ul class="Portfolio-list">
+        <ul class="portfolio-list">
             <li class="Portfolio-list-item">
                 <img src="./img/img (3).png" alt="">
                 <h3 class="Portfolio-list-title">Technoduck</h3>
@@ -87,17 +92,19 @@ referrerpolicy="no-referrer"/>
         </ul>
     </div>
     </section>
-        <footer class="footer">
-            <div class="box">
+    <!-- footer -->
+    <footer class="footer">
+        <div class="box">
             <a class="logo" href="">WebStudio</a>
             <address class="address">
-            <ul class="address-list">
-            <li class="addsress-list-item"><a class="addsress-list-link" href="">695 Park Ave, New York, NY 10065, United States</a></li>
-            <li class="addsress-list-item"><a class="addsress-list-link" href="">info@devstudio.com</a></li>
-            <li class="addsress-list-item"><a class="addsress-list-link" href="">+1 212-772-4150</a></li>
-            </ul>
+                <ul class="address-list">
+                    <li class="address-list-item"><a class="address-list-map" href="">695 Park Ave, New York, NY 10065, United States</a></li>
+                    <li class="address-list-item"><a class="address-list-link" href="">info@devstudio.com</a></li>
+                    <li class="address-list-item"><a class="address-list-link" href="">+1 212-772-4150</a></li>
+                </ul>
             </address>
         </div>
-            </footer>
+    </footer>
+</main>    
 </body>
 </html>
