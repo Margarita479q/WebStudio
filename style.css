@@ -27,6 +27,9 @@ color: #757575;
 }
 .hero{
     background-color: #2F303A;
+     background-image:url("./img/Img\ \(12\).png") ;
+background-repeat: no-repeat;
+background-size: cover;
 
 }
 
