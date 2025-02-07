@@ -334,3 +334,12 @@ position: relative;
     .header_links:hover{
 
     }
+.team-list-text-ul{
+    display: flex;
+    justify-content: space-between;
+   width: 100%;
+   max-width: 206px;
+   margin: 0 auto;
+   padding-top: 28px;
+   padding-bottom: 42px;
+}
